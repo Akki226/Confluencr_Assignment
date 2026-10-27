@@ -1,0 +1,14 @@
+{
+  "name": "transaction-ledger-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple transaction ledger API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
