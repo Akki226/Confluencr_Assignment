@@ -47,7 +47,7 @@ Returns `200 OK`:
 }
 ```
 
-Returns `201 Created` with the immutable transaction and the updated balance. `type` must be `credit` or `debit`; `amount` must be a positive number. A debit cannot exceed the account balance. `reference_id` must be unique within its account.
+Returns `201 Created` with the immutable transaction and the updated balance. `type` must be `credit` or `debit`; `amount` must be a positive number with at most two decimal places. A debit cannot exceed the account balance. `reference_id` must be unique within its account.
 
 ## Get transaction history
 
